@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
+@import url("https://fonts.googleapis.com/css?family=Architects+Daughter");
+body {
+  margin: 0;
+  padding: 0; }
+
+[class*="img-"] {
+  min-height: 300px; }
+
+.myNavbar {
+  background-color: #302d37; }
+  .myNavbar button {
+    border: 1px solid white;
+    background: none; }
+    .myNavbar button span {
+      background-color: white; }
+  .myNavbar a {
+    color: white; }
+
+#Mymenu ul li a {
+  color: white; }
+  #Mymenu ul li a:hover, #Mymenu ul li a:focus {
+    background: rgba(255, 255, 255, 0.2); }
+
+.jumbotron {
+  padding: 0; }
+  .jumbotron .container-fluid {
+    padding: 0; }
+  .jumbotron img {
+    width: 100%;
+    max-height: 600px; }
+  .jumbotron .carousel-caption .carouselText {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.7);
+    margin: 5%;
+    padding: 10px; }
+
+.historyBtn {
+  background: #a591af;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px; }
+  .historyBtn:focus, .historyBtn:hover {
+    background: white;
+    color: #a591af;
+    border: 2px solid #a591af; }
+
+.btn-link {
+  padding: 0 5px;
+  color: #a591af; }
+  .btn-link:focus, .btn-link:hover {
+    color: #a591af;
+    text-decoration: none; }
+
+.margin {
+  margin: 5% 0; }
+
+.positive {
+  background: #F2F2F2;
+  margin-bottom: 5%; }
+
+#coffee {
+  margin-bottom: 0; }
+
+.navbar-brand {
+  font-family: "Gloria Hallelujah", cursive; }
+
+h1 {
+  font-family: "Gloria Hallelujah", cursive; }
+
+h2 {
+  font-family: "Gloria Hallelujah", cursive; }
+
+h3 {
+  font-family: "Gloria Hallelujah", cursive; }
+
+h4 {
+  font-family: "Gloria Hallelujah", cursive; }
+
+p {
+  font-family: 'Architects Daughter', cursive; }
+
+.container-history img {
+  margin-top: 30px; }
+
+.gray {
+  background: #302d37;
+  color: white;
+  padding: 10px; }
+
+#blog {
+  margin-bottom: 5%; }
+
+#contact p {
+  font-size: 24px; }
+
+.submit {
+  background: #a591aa;
+  color: white; }
+
+footer {
+  background: #222222;
+  color: white; }
+  footer p {
+    padding: 10px;
+    font-size: 18px; }
+
+@media (max-width: 767px) and (orientation: landscape) {
+  #coffee img {
+    margin: 0 17.5%; } }
+
+@media (max-width: 992px) {
+  .jumbotron .item img {
+    height: 400px; }
+  .align {
+    text-align: center; }
+  .margin-top {
+    margin-top: 5%; } }
+
+/*# sourceMappingURL=style.css.map */
