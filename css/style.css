@@ -99,6 +99,11 @@ p {
   background: #a591aa;
   color: white; }
 
+iframe {
+  width: 350px;
+  height: 300px;
+  border: none; }
+
 footer {
   background: #222222;
   color: white; }
